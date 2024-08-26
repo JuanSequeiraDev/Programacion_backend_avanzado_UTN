@@ -42,170 +42,188 @@ Dado el array gastosMensuales y gananciasMensuales, desarrollar una función que
 
 **FUNCIONES FLECHA Y MÉTODOS BÁSICOS**
 
-**11 Definí una función calcularAreaTriangulo que tome por parámetros la base y la altura de un triángulo y devuelva el área del mismo**
+**11** Definí una función calcularAreaTriangulo que tome por parámetros la base y la altura de un triángulo y devuelva el área del mismo
 
-**// calcularAreaTriangulo(5, 6**   
-**//resultado 15**
+// calcularAreaTriangulo(5, 6   
+//resultado 15
 
-**12)Definí una función esElUltimoCaracter que reciba como argumentos una palabra y un caracter y nos indique si la palabra termina con el caracter.**
+**12)**
+Definí una función esElUltimoCaracter que reciba como argumentos una palabra y un caracter y nos indique si la palabra termina con el caracter.
 
-**//igualLongitud(‘estufa’, 'a')**  
-**//true**
+//igualLongitud(‘estufa’, 'a')  
+//true
 
-**13)Definí una función esValida que tome por parámetro una contrasenia (string) y nos indique si tiene 8 caracteres o más.**
+**13**
+Definí una función esValida que tome por parámetro una contrasenia (string) y nos indique si tiene 8 caracteres o más.
 
-**//esValida('contraseniaMuySegura')**  
-**//true**
+//esValida('contraseniaMuySegura')  
+//true
 
-**14)Definí una función contarPalabras que reciba como argumento un string str y devuelva la cantidad de palabras que posee**
+**14**
+Definí una función contarPalabras que reciba como argumento un string str y devuelva la cantidad de palabras que posee
 
-**//contarPalabras('javascript')**  
-**//1**
+//contarPalabras('javascript')  
+//1
 
-**15)Definí una función capitalizar que reciba como argumento un string str y devuelva el mismo string con la primera letra en mayúscula**
+**15**
+Definí una función capitalizar que reciba como argumento un string str y devuelva el mismo string con la primera letra en mayúscula
 
-**//capitalizar('había una vez...')**  
-**//'Había una vez...'**
+//capitalizar('había una vez...')  
+//'Había una vez...'
 
-**16)Definí una función obtenerPrimeraOracion que tome por parámetro un string str y devuelva la primera oración de dicho string**
+**16**
+Definí una función obtenerPrimeraOracion que tome por parámetro un string str y devuelva la primera oración de dicho string
 
-**//obtenerPrimeraOracion('A mí no me preguntes, sólo soy una oración')**  
-**//'A mí no me preguntes, sólo soy una oración'**
+//obtenerPrimeraOracion('A mí no me preguntes, sólo soy una oración')  
+//'A mí no me preguntes, sólo soy una oración'
 
-**17)Definí una función ocultarContrasenia que reciba como argumento una contrasenia de solo numeros y devuelva un string con dicha contraseña ocultada con astericos \*, es decir, un string con la misma longitud donde todos sus caracteres son astericos**
+**17**
+Definí una función ocultarContrasenia que reciba como argumento una contrasenia de solo numeros y devuelva un string con dicha contraseña ocultada con astericos *, es decir, un string con la misma longitud donde todos sus caracteres son astericos
 
-**//ocultarContrasenia(123456)**  
-**//'\*\*\*\*\*\*'**
+//ocultarContrasenia(123456)  
+//'******'
 
-**18)Definí una función obtenerExtension que tome por parámetro un string archivo con el formato 'nombre.extension' y devuelva la extensión del archivo**
+**18**
+Definí una función obtenerExtension que tome por parámetro un string archivo con el formato 'nombre.extension' y devuelva la extensión del archivo
 
-**//obtenerExtension('imagen.png')**  
-**//'png'**
+//obtenerExtension('imagen.png')  
+//'png'
 
-**19)Definí una función esPuenteSeguro que tome por parámetro un string que represente a un puente que consista en caracteres numerales y espacios y nos indique si el puente está entero y es seguro atravesar**
+**19**
+Definí una función esPuenteSeguro que tome por parámetro un string que represente a un puente que consista en caracteres numerales y espacios y nos indique si el puente está entero y es seguro atravesar
 
-**//esPuenteSeguro('\#\#\# \#\#')**  
-**//false**
+//esPuenteSeguro('### ##')  
+//false
 
-**ARRAYS**
+ARRAYS
 
-**20)Definí una función obtenerMenor que tome por parámetro un array de números numeros y devuelva el menor de ellos**
+**20**
+Definí una función obtenerMenor que tome por parámetro un array de números numeros y devuelva el menor de ellos
 
-**//obtenerMenor(5, 7, 99, 34, 54, 2, 12**  
-**//2**
+//obtenerMenor(5, 7, 99, 34, 54, 2, 12  
+//2
 
-**21)Definí una función sumar que reciba como argumento un array de números numeros y devuelva la suma de ellos.**
+**21**)Definí una función sumar que reciba como argumento un array de números numeros y devuelva la suma de ellos.
 
-**//sumar(\[5, 7, 10, 12, 24\])**  
-**//58**
+//sumar([5, 7, 10, 12, 24])  
+//58
 
-**22)Definí una función contiene que reciba como argumentos un número numero y un array de números numeros y devuelva si el número se encuentra en dicho array.**
+**22**
+Definí una función contiene que reciba como argumentos un número numero y un array de números numeros y devuelva si el número se encuentra en dicho array.
 
-**//contiene(103, \[5, 7, 99, 3, 4, 54, 2, 12\])**  
-**//false**
+//contiene(103, [5, 7, 99, 3, 4, 54, 2, 12])  
+//false
 
-**23)Definí una función gano que reciba como argumento un array tragamonedas con 5 símbolos y nos indique si son iguales. Si el array tiene más de 5 símbolos, sólo debe comparar los 5 primeros.**
+**23**
+Definí una función gano que reciba como argumento un array tragamonedas con 5 símbolos y nos indique si son iguales. Si el array tiene más de 5 símbolos, sólo debe comparar los 5 primeros.
 
-**//gano(\['⭐ '⭐️', '⭐️', '💫', '✨'\]) //**   
-**//false**
+//gano(['⭐ '⭐️', '⭐️', '💫', '✨']) //   
+//false
 
-**24)Definí una función separar que tome por parámetro un string con emojis de perros y gatos y devuelva un string con los perros agrupados por un lado y los gatos por otro.**
+**24**
+Definí una función separar que tome por parámetro un string con emojis de perros y gatos y devuelva un string con los perros agrupados por un lado y los gatos por otro.
 
-**//separar('🐶🐱🐶🐱🐱🐶🐶')**   
-**//'🐶🐶🐶🐶🐱🐱🐱'**
+//separar('🐶🐱🐶🐱🐱🐶🐶')   
+//'🐶🐶🐶🐶🐱🐱🐱'
 
-**25)Definí una función multiplicar que reciba como argumentos un número multiplicador y un array de números numeros, y que devuelva un array donde cada elemento es el resultado del elemento del primer array (en la misma posición) multiplicado por el número ingresado.**
+**25**
+Definí una función multiplicar que reciba como argumentos un número multiplicador y un array de números numeros, y que devuelva un array donde cada elemento es el resultado del elemento del primer array (en la misma posición) multiplicado por el número ingresado.
 
-**//multiplicar(2, \[5, 7, 15, 22, 40\])**  
-**//\[10, 14, 30, 44, 80\]**
+//multiplicar(2, [5, 7, 15, 22, 40])  
+//[10, 14, 30, 44, 80]
 
-**26)Definí una función filtrarPorLongitud que tome por parámetro un número longitud y un array de strings palabras y que devuelva un array con las palabras que tengan una cantidad de letras mayor a longitud.**
+**26**
+Definí una función filtrarPorLongitud que tome por parámetro un número longitud y un array de strings palabras y que devuelva un array con las palabras que tengan una cantidad de letras mayor a longitud.
 
-**//filtrarPorLongitudMayorA(4,\['dia','remolacha','azul','sorpresa','te','verde',\])**  
-**//\['remolacha', 'sorpresa', 'verde'\]**
+//filtrarPorLongitudMayorA(4,['dia','remolacha','azul','sorpresa','te','verde',])  
+//['remolacha', 'sorpresa', 'verde']
 
-**27)Definí una función jugarPiedraPapelTijeras que reciba como argumentos dos strings jugadoraA y jugadoraB con los nombres de cada jugadora respectivamente, y dos arrays de strings jugadasA y jugadasB con jugadas de Piedra, Papel o Tijera, de la misma longitud. La función debe devolver un string con el nombre de la ganadora o Empate en caso de que no haya ninguna. Para eso, debe comparar las mismas posiciones de cada array de jugadas, y sumar puntos a la jugadora correspondiente**
+**27**
+Definí una función jugarPiedraPapelTijeras que reciba como argumentos dos strings jugadoraA y jugadoraB con los nombres de cada jugadora respectivamente, y dos arrays de strings jugadasA y jugadasB con jugadas de Piedra, Papel o Tijera, de la misma longitud. La función debe devolver un string con el nombre de la ganadora o Empate en caso de que no haya ninguna. Para eso, debe comparar las mismas posiciones de cada array de jugadas, y sumar puntos a la jugadora correspondiente
 
-**const jugadasA \= \['piedra', 'piedra', 'tijera'\]**  
-**const jugadasB \= \['papel', 'tijera', 'tijera'\]**
+const jugadasA = ['piedra', 'piedra', 'tijera']  
+const jugadasB = ['papel', 'tijera', 'tijera']
 
-**COMBINADOS**
+COMBINADOS
 
-**28)Definí una función esPalindromo que tome una palabra y devuelva si dicha palabra es palíndroma, es decir, si puede leerse de igual manera de izquierda a derecha que de derecha a izquierda .** 
+**28**
+Definí una función esPalindromo que tome una palabra y devuelva si dicha palabra es palíndroma, es decir, si puede leerse de igual manera de izquierda a derecha que de derecha a izquierda . 
 
-**//esPalindromo('mama')**  
-**//false**
+//esPalindromo('mama')  
+//false
 
-**29)Definí una función repetirLetras que reciba como argumento un string palabra y un número entero cantidad, y devuelva una string donde cada letra de palabra esté repetida cantidad de veces.**
+**29**
+Definí una función repetirLetras que reciba como argumento un string palabra y un número entero cantidad, y devuelva una string donde cada letra de palabra esté repetida cantidad de veces.
 
-**//repetirLetras('ah\!', 5**  
-**//aaaaahhhhh\!\!\!\!\!'**
+//repetirLetras('ah!', 5  
+//aaaaahhhhh!!!!!'
 
-**30)Definí una función removerDuplicados que tome por parámetros un array array y que devuelva un array con los mismos valores de array pero sin valores duplicados.**
+**30**
+Definí una función removerDuplicados que tome por parámetros un array array y que devuelva un array con los mismos valores de array pero sin valores duplicados.
 
-**//removerDuplicados(\[1, 1, 1\])**  
-**//\[1\]**
+//removerDuplicados([1, 1, 1])  
+//[1]
 
-**METODOS AVANZADOS**
+METODOS AVANZADOS
 
-**31 definí la función dobles que tome una lista de numeros y devuelva un nuevo array con cada valor multiplicado por dos**
+31 definí la función dobles que tome una lista de numeros y devuelva un nuevo array con cada valor multiplicado por dos
 
-**//dobles(numeros)**  
-**//\[6, 14, 26, 198\]**
+//dobles(numeros)  
+//[6, 14, 26, 198]
 
-**32)definí una función longitudes que tome una lista de frases y devuelva un nuevo array que contenga la longitud de cada frase.**
+32)definí una función longitudes que tome una lista de frases y devuelva un nuevo array que contenga la longitud de cada frase.
 
-**//longitudes(frases)**  
-**//\[ 17, 18, 16 \]**
+//longitudes(frases)  
+//[ 17, 18, 16 ]
 
-**33)definí la función posiciones que tome una lista de canciones de una playlist y devuelva un nuevo array con los números de las posiciones de cada canción.**
+33)definí la función posiciones que tome una lista de canciones de una playlist y devuelva un nuevo array con los números de las posiciones de cada canción.
 
-**//const playlist \= \['Everlong', 'The Pretender', 'Learn to Fly'\];**
+//const playlist = ['Everlong', 'The Pretender', 'Learn to Fly'];
 
- **posiciones(playlist)**  
- **\[ '0 \- Everlong', '1 \- The Pretender', '2 \- Learn to Fly' \]**
+ posiciones(playlist)  
+ [ '0 - Everlong', '1 - The Pretender', '2 - Learn to Fly' ]
 
-**34)definí la función losMasCaros que tome una lista de costos que representan costos de diferentes productos y devuelva un nuevo array con los precios más caros (mayores a 50**
+34)definí la función losMasCaros que tome una lista de costos que representan costos de diferentes productos y devuelva un nuevo array con los precios más caros (mayores a 50
 
-**//const costos \= \[ 39, 53, 17, 99, 7, 9, 6, 68, 54, 97, 27, 90, 92, 75, 26, 86, 22, 42, 20, 14 \]**
+//const costos = [ 39, 53, 17, 99, 7, 9, 6, 68, 54, 97, 27, 90, 92, 75, 26, 86, 22, 42, 20, 14 ]
 
-**// losMasCaros(costos)**  
- **\[53, 99, 68, 54, 97, 90, 92, 75, 86\]**
+// losMasCaros(costos)  
+ [53, 99, 68, 54, 97, 90, 92, 75, 86]
 
-**35)definí la función soloStrings que tome una lista de mix con varios elementos de distintos tipos de datos y devuelva un nuevo array que contenga sólo los datos de tipo string.**
+35)definí la función soloStrings que tome una lista de mix con varios elementos de distintos tipos de datos y devuelva un nuevo array que contenga sólo los datos de tipo string.
 
-**const mix \= \[ 'Ut vero.',2 , function () { console.log('hola mundo\!') }, 56, 'Diam rebum nonumy et.', true, false,'Kasd stet.', 'Sit et dolor.', null, null, \[ 1, 2, 3\], 'Dolore.'\];**
+const mix \= \[ 'Ut vero.',2 , function () { console.log('hola mundo\!') }, 56, 'Diam rebum nonumy et.', true, false,'Kasd stet.', 'Sit et dolor.', null, null, \[ 1, 2, 3\], 'Dolore.'\];
 
-**//soloStrings(mix)**  
-**//\['Ut vero.', 'Diam rebum nonumy et.', 'Kasd stet.', 'Sit et dolor.', 'Dolore.' \]**
+//soloStrings(mix)  
+//\['Ut vero.', 'Diam rebum nonumy et.', 'Kasd stet.', 'Sit et dolor.', 'Dolore.' \]
 
-**36**
+36
 
-**Necesitamos crear un contador . Para esto necesitaremos**
+Necesitamos crear un contador . Para esto necesitaremos
 
-* **un span que muestre un número (que comience en 0);**  
-* **6 botones con los siguientes valores: : \-1, \+1, \-5, \+5, \-10, \+10;**  
-* **al clickear un botón se tiene que actualizar el valor del span sumando o restando la cantidad correspondiente.**
+* un span que muestre un número (que comience en 0);  
+* 6 botones con los siguientes valores: : \-1, \+1, \-5, \+5, \-10, \+10;  
+* al clickear un botón se tiene que actualizar el valor del span sumando o restando la cantidad correspondiente.
 
-**37**  
-**Vamos a crear una página para jugar a resolver una pregunta . Se espera que la misma:**
+37  
+Vamos a crear una página para jugar a resolver una pregunta . Se espera que la misma:
 
-* **tenga dos span el primero con una pregunta, o adivinanza, el segundo inicialmente estará vacío;**  
-* **tenga tres botones con posibles respuestas;**  
-* **al clickear la respuesta correcta, el botón debe ponerse de color verde, y el texto del segundo span debe actualizarse mostrando ¡Respuesta correcta\!;**  
-* **si se clickea una respuesta incorrecta, se debe mostrar el botón con la respuesta correcta con un color de fondo verde y los otros dos con un color de fondo rojo, y el texto del segundo span debe actualizarse mostrando ¡Respuesta equivocada\!.**
+* tenga dos span el primero con una pregunta, o adivinanza, el segundo inicialmente estará vacío;  
+* tenga tres botones con posibles respuestas;  
+* al clickear la respuesta correcta, el botón debe ponerse de color verde, y el texto del segundo span debe actualizarse mostrando ¡Respuesta correcta\!;  
+* si se clickea una respuesta incorrecta, se debe mostrar el botón con la respuesta correcta con un color de fondo verde y los otros dos con un color de fondo rojo, y el texto del segundo span debe actualizarse mostrando ¡Respuesta equivocada\!.
 
-**38)Vamos a crear una página que inicialmente cuente con 5 imágenes:**
+38)Vamos a crear una página que inicialmente cuente con 5 imágenes:
 
-* **las cuatro primeras imágenes tendrán 100px de alto;**  
-* **la última deberá tener 500pxde alto.**
+* las cuatro primeras imágenes tendrán 100px de alto;  
+* la última deberá tener 500pxde alto.
 
-**Al clickear una imagen de 100px se actualiza a 500px y la que anteriormente tenía 500px se actualiza a 100px.**
+Al clickear una imagen de 100px se actualiza a 500px y la que anteriormente tenía 500px se actualiza a 100px.
 
-**39**  
-**Necesitamos darle colores aleatorios al body apretando la barra espaciadora. Para eso modificaremos su color de fondo utilizando el formato rgb(0,0,0) donde los valores r, g y b deben generarse aleatoriamente con valores entre 1 y 255\.**
+39  
+Necesitamos darle colores aleatorios al body apretando la barra espaciadora. Para eso modificaremos su color de fondo utilizando el formato rgb(0,0,0) donde los valores r, g y b deben generarse aleatoriamente con valores entre 1 y 255\.
 
-**40)Queremos obtener el nombre, año de lanzamiento y banda de un disco , para mostrar el mensaje "El disco \[NOMBRE DISCO\] de la banda \[NOMBRE DE LA BANDA\] se lanzó en el año \[AÑO DE LANZAMIENTO DEL DISCO\]".** 
+40)Queremos obtener el nombre, año de lanzamiento y banda de un disco , para mostrar el mensaje "El disco \[NOMBRE DISCO\] de la banda \[NOMBRE DE LA BANDA\] se lanzó en el año \[AÑO DE LANZAMIENTO DEL DISCO\]". 
 
 **let disco \= {**  
   **id: 1,**  
