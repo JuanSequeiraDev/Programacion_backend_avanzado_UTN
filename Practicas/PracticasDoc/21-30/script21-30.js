@@ -97,3 +97,95 @@ console.log(gane) */
 
 // 24
 
+/* const separar = (string) => {
+    const regxp = /^[a-zA-Z0-9_-]$/
+    const tieneEmotes = string.includes('🐶') && string.includes('😺')
+    const stringSinPerro = string.replaceAll('🐶', '')
+    const stringSinEmotes = stringSinPerro.replaceAll('😺', '')
+    const validacionReturn = !regxp.test(stringSinEmotes)
+    if (tieneEmotes === true && validacionReturn === true) {
+        const stringSoloPerro = string.replaceAll('😺', '')
+        const stringSoloGato = string.replaceAll('🐶', '')
+        const stringOrdenado = stringSoloPerro + stringSoloGato
+        return stringOrdenado
+    }
+    else{
+        return 'Error, caracteres erroneos detectados'
+    }
+}
+
+const emotesOrdenados = separar('🐶😺🐶🐶😺😺😺🐶🐶😺')
+console.log(emotesOrdenados) */
+
+
+
+// 25
+
+/* const multiplicar = (multiplicador, array) =>{
+    if(!(isNaN(multiplicador) || !multiplicador)){
+        const arrayMultiplicado = array.map(numero =>{
+            if(!(isNaN(numero) || !numero)){
+                return numero * multiplicador
+            }
+            else{
+                return 'Error, hay un no numero en este string'
+            }
+        }) 
+        return arrayMultiplicado
+    }
+    else{
+        return 'Error, el multiplicador no es un numero'
+    }
+}
+
+const arrayMultiplicado = multiplicar(5 , [2, 5, 3, 15, 9])
+console.log(arrayMultiplicado) */
+
+
+
+// 26 
+
+/* const filtrarPorLongitudMayorA = (maxLength, array) =>{
+    let arrayFiltrado = []
+    for(string of array){
+        if(string.length > maxLength){
+            arrayFiltrado.push(string)
+        }
+    }
+    return arrayFiltrado
+}
+
+
+
+const arrayFiltrado = filtrarPorLongitudMayorA(4,['dia','remolacha','azul','sorpresa','te','verde',])  
+console.log(arrayFiltrado) */
+
+
+
+// 27
+
+const jugadasA = ['piedra', 'piedra', 'tijera']  
+const jugadasB = ['papel', 'tijera', 'tijera']
+
+const jugarPiedraPapelTijeras = (jugadorA, jugadorB, jugadasA, jugadasB) =>{
+    if(jugadasA.length === 3 && jugadasB.length === 3){
+        console.log('todo bien')
+    }
+    else{
+        console.log('Faltan o sobran jugadas en el array. Recuerde que deben ser 3 jugadas por jugador')
+    }
+}
+
+jugarPiedraPapelTijeras('juan', 'maria', jugadasA, jugadasB)
+
+
+
+
+
+
+
+
+
+
+
+
