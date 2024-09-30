@@ -1,0 +1,26 @@
+[
+    {
+        "nombre": "tv samsung",
+        "precio": 25000,
+        "id": 1,
+        "descripcion": "Tv samsung 56 pulgadas 1440p"
+    },
+    {
+        "nombre": "tv LG",
+        "precio": 10000,
+        "id": 2,
+        "descripcion": "Tv LG 42 pulgadas Full HD"
+    },
+    {
+        "nombre": "tv android",
+        "precio": 50000,
+        "id": 3,
+        "descripcion": "Tv android 98 pulgadas 4k"
+    },
+    {
+        "nombre": "mouse logitech",
+        "precio": 5000,
+        "id": 4,
+        "descripcion": "Mouse logitech 32k DPI sensor Hero"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "nombre" : "Pepe",
+        "username" : "pepe666",
+        "email" : "pepe@gmail.com",
+        "ultima_conexion" : "hoy",
+        "id": 1
+    },
+    {
+        "nombre" : "Maria",
+        "username" : "maria444",
+        "email" : "maria@gmail.com",
+        "ultima_conexion" : "hoy",
+        "id": 2
+    },
+    {
+        "nombre" : "Juan",
+        "username" : "juan646",
+        "email" : "juan@gmail.com",
+        "ultima_conexion" : "hoy",
+        "id": 3
+    }
+]
