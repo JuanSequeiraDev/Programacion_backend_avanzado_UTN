@@ -11,8 +11,7 @@ mongoDB.connect(MONGO_URL, {})
 .then(
     () =>{
         console.log('Se establecio la conexion con mongoDB')
-        const userCreated = new User({name: 'pepe', email: 'pepe@gmail.com', password: 'pepe123', verificationToken: ''})
-        userCreated.save() //Esto lo guarda en mongoDB
+        
     }
 )
 .catch(
